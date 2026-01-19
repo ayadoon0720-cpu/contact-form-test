@@ -1,0 +1,62 @@
+.thanks-container {
+    width: 1512px;
+    height: 982px;
+    margin: 0 auto;
+    background: #FFFFFF;
+}
+
+.thanks-bg {
+    top: 319px;
+    left: 66px;
+    width: 1381px;
+    height: 365px;
+
+    font-family: 'Inika', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 280px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(139, 121, 105, 0.05);
+}
+
+.thanks-message {
+    top: 461px;
+    left: 501px;
+    width: 510px;
+    height: 39px;
+
+    font-family: 'Inika', serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #8B7969;
+
+    text-align: center;
+}
+
+.home-button {
+    position: absolute;
+    flex-direction: column;
+    width: fit-content;
+    max-width: 140px;
+    height: fit-content;
+    max-height: 46px;
+    top: 555px;
+    left: 686px;
+    padding: 10px 40px;
+    gap: 10px;
+    background: #82756A;
+
+    width: 60px;
+    height: 26px;
+    font-family: 'Inika', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}

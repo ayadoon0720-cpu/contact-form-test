@@ -1,0 +1,95 @@
+body {
+    font-family: 'Inika', serif;
+    background: #F1ECE7;
+}
+
+/* 全体 */
+.register-wrapper {
+    text-align: center;
+    padding-top: 80px;
+}
+
+/* ===== ヘッダー ===== */
+.header {
+    width: 1512px;
+    height: 100px;
+    border: 1px solid #E0DFDE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.header-title {
+    width: 1509.01px;
+    height: 100px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8B7969;
+}
+
+/* ==== 下線 ==== */
+.header::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 1512px;
+    border-bottom: 1px solid #E0DFDE;
+}
+
+/* タイトル */
+.register-title {
+    font-size: 28px;
+    color: #8B7969;
+    margin-bottom: 40px;
+}
+
+/* 白カード */
+.register-card {
+    width: 520px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    padding: 50px 40px;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+/* 入力欄 */
+.form-group {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #8B7969;
+    margin-bottom: 8px;
+}
+
+.form-group input {
+    width: 100%;
+    height: 38px;
+    background: #F4F4F4;
+    border: none;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #8B7969;
+}
+
+.form-group input::placeholder {
+    color: #BEB1A6;
+}
+
+/* ボタン */
+.register-btn {
+    margin-top: 20px;
+    background: #82756A;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 40px;
+    font-size: 16px;
+    cursor: pointer;
+}

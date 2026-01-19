@@ -1,0 +1,31 @@
+.header {
+    width: 1512px;
+    height: 100px;
+    border: 1px solid #E0DFDE;
+}
+
+.header_inner {
+    width: 1512px;
+    height: 0px;
+    top: 100px;
+    border: 1px solid #E0DFDE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_logo {
+    color: #8B7969;
+    width: 1509.01px;
+    height: 100px;
+    left: 2.99px;
+
+    font-family: 'Inika', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    vertical-align: middle;
+}

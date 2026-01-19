@@ -1,0 +1,73 @@
+.confirm {
+    width: 1512px;
+    height: 982px;
+    margin: 0 auto;
+    background: #ffffff;
+    position: relative;
+}
+
+/* タイトル */
+.confirm__title {
+    width: 133px;
+    height: 43px;
+    top: 150px;
+    left: 694px;
+    font-family: "Inika", serif;
+    font-size: 35px;
+    font-weight: 400;
+    font-style: normal;
+    color: #8B7969;
+    line-height: 100%;
+    letter-spacing: 0;
+}
+
+/* フォーム */
+.form {
+    position: absolute;
+    top: 247px;
+    left: 273px;
+    width: 972px;
+}
+
+/* テーブル全体 */
+.confirm__table {
+    width: 972px;
+    height: 606px;
+    top: 247px;
+    left: 273px;
+    border: 1px solid #E0DFDE;
+    border-collapse: collapse;
+}
+
+.confirm-table_row {
+    height: 70px;
+}
+
+/* 左側見出し */
+.confirm-table_header {
+    width: 305px;
+    height: 69.92px;
+    background: #BEB1A6;
+
+    width: 64.21px;
+    height: 28.86px;
+    top: 21.44px;
+    left: 62px;
+    font-family: "Inika", serif;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.confirm__table_text {
+    background: ;
+    padding-left: ;
+    font-size: ;
+    color: #8B7969;
+    border-bottom: ;
+    vertical-align: middle;
+}
+

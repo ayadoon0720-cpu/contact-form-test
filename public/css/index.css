@@ -1,0 +1,194 @@
+body {
+    font-family: 'Inika', serif;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    background: #FFFFFF;
+}
+
+/* ===== ヘッダー ===== */
+.header {
+    width: 1512px;
+    height: 100px;
+    border: 1px solid #E0DFDE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.header-title {
+    width: 1509.01px;
+    height: 100px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #8B7969;
+}
+
+/* ==== 下線 ==== */
+.header::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 1512px;
+    border-bottom: 1px solid #E0DFDE;
+}
+
+/* ===== Contact ===== */
+.contact-title {
+    text-align: center;
+    font-size: 35px;
+    color: #8B7969;
+    margin: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ===== フォーム全体 ===== */
+.contact-form {
+    width: 972px;
+    height: 606px;
+    margin: 0 auto;
+    border: 1px solid #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ===== 行共通 ===== */
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.form-label {
+    width: 280px;
+    font-size: 20px;
+    color: #8B7969;
+    flex-shrink: 0;
+}
+
+.form-label span {
+    color: red;
+    margin-left: 4px;
+}
+
+/* ===== 入力欄エリア ===== */
+.form-input-area {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* ===== input共通 ===== */
+.input {
+    width: 300px;
+    height: 38px;
+    background: #F4F4F4;
+    border: none;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #8B7969;
+}
+
+.input::placeholder {
+    color: #BEB1A6;
+    font-size: 14px;
+}
+
+/* ===== 個別サイズ ===== */
+.first_name-input {
+    width: 287.15px;
+}
+.last_name-input {
+    width: 287.15px;
+}
+
+.email-input {
+    width: 618.82px;
+}
+
+.tel1-input {
+    width: 178.12px;
+}
+.tel2-input {
+    width: 178.12px;
+}
+.tel3-input {
+    width: 178.12px;
+}
+
+.address-input {
+    width: 618.82px;
+}
+
+.building-input {
+    width: 620.36px;
+}
+
+/* ===== 性別 ===== */
+.gender-group {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.gender-group label {
+    font-size: 18px;
+    color: #8B7969;
+}
+
+.gender-group input {
+    width: 20px;
+    height: 20px;
+}
+
+/* ===== select ===== */
+.select-box {
+    width: 331.68px;
+    height: 38px;
+    background: #F4F4F4;
+    border: none;
+    font-size: 14px;
+    color: #BEB1A6;
+}
+
+/* ===== textarea ===== */
+.textarea-box {
+    width: 618.82px;
+    height: 129px;
+    background: #F4F4F4;
+    border: 1px solid #8B7969;
+    padding: 10px;
+    font-size: 14px;
+    color: #8B7969;
+}
+
+.form-row.textarea-row {
+    align-items: flex-start;
+}
+
+.textarea-box::placeholder {
+    color: #BEB1A6;
+    font-size: 14px;
+}
+
+/* ===== ボタン ===== */
+.submit-area {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.submit-btn {
+    background: #82756A;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 10px 40px;
+    cursor: pointer;
+}
